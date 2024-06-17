@@ -1,1 +1,1 @@
-This is simple passoword (hash) cracking tool.
+This is simple password (hash) cracking tool.
