@@ -30,4 +30,4 @@ Usage:-
     4. python hSwap.py -hC [hash_file.txt] -a [algorithm_number] -w [wordlist_file] -t [threads]
         eg - python hSwap -hC hash.txt -a -0 -w rockyou.txt -t 100
 
-THANK YOU 
+THANK YOU :)
