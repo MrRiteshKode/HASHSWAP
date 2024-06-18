@@ -7,7 +7,7 @@ Functionality :-
     1. Can find type of hash.
     2. Can crack different type hashes.
     3. Multi-threaded
-    4. It has by default wordlist (hswap.txt)
+    4. It has by default wordlist (hSwap.txt)
     5. By default threads used is 50
 
 Download :-
