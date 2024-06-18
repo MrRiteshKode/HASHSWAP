@@ -244,7 +244,7 @@ class HashSwap:
                 for chunk in wordlist_chunks:
                     if self.found.is_set() or self.stop.is_set():
                         break
-                    thread = threading.Thread(target=worker, args=(chunk, target_hash, hash_func))
+                    thread = threading.Thread(target=worker, daemon=True ,args=(chunk, target_hash, hash_func))
                     thread.start()
                     threads_list.append(thread)
                     time.sleep(0.5)  # Wait for 1 second between starting threads
