@@ -12,22 +12,22 @@ Functionality :-
 
 Download :-
 
-    1. Download, ```bash git clone https://github.com/MrRiteshKode/Kelian.git ```
-    2. Download requirements, ```bash pip install -r requirements.txt ```
+    1. Download, git clone https://github.com/MrRiteshKode/Kelian.git
+    2. Download requirements, pip install -r requirements.txt
 
 Usage:-
-    1. ```bash python hSwap.py -h ``` [For help menu]
+    1. python hSwap.py -h [For help menu]
 
-    2. ```bash python hSwap.py -v ``` [For version]
+    2. python hSwap.py -v [For version]
 
-    3. ```bash python hSwap.py --listalgo ``` [List for available hashes can crack by hashswap]
+    3. python hSwap.py --listalgo [List for available hashes can crack by hashswap]
 
     [+] For Finding type of hash
-    3. ```bash python hSwap.py -hT [hash_file.txt] ```
+    3. python hSwap.py -hT [hash_file.txt]
         eg - python hSwap -hT hash.txt
 
     [+] For cracking hashes
-    4. ```bash python hSwap.py -hC [hash_file.txt] -a [algorithm_number] -w [wordlist_file] -t [threads] ```
+    4. python hSwap.py -hC [hash_file.txt] -a [algorithm_number] -w [wordlist_file] -t [threads]
         eg - python hSwap -hC hash.txt -a -0 -w rockyou.txt -t 100
 
-THANK YOU :)
+THANK YOU 
